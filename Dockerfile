@@ -11,7 +11,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 # install app dependencies
 COPY package.json ./
 COPY yarn.lock ./
-RUN yarn install --silent
+RUN yarn install --legacy-peer-deps --silent
 
 # add app
 COPY . ./
