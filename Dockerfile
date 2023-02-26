@@ -1,0 +1,20 @@
+FROM node:16.14-alpine
+
+RUN apk update && apk add yarn
+
+# set working directory
+WORKDIR /app
+
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
+
+# install app dependencies
+COPY package.json ./
+COPY yarn.lock ./
+RUN yarn install --legacy-peer-deps --silent
+
+# add app
+COPY . ./
+
+# start app
+CMD ["yarn", "start"]
