@@ -208,9 +208,9 @@ const contactConfig = {
     "Do you have any idea that you would like to bring to live? Let's talk.",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
-  YOUR_TEMPLATE_ID: "template_id",
-  YOUR_USER_ID: "user_id",
+  YOUR_SERVICE_ID: 'service_4veowqa',
+  YOUR_TEMPLATE_ID: 'template_bi25qm4',
+  YOUR_USER_ID: "4oAeQ42j2WdeSwDEn",
 };
 
 const socialprofils = {
