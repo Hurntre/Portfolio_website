@@ -38,12 +38,12 @@ const Headermain = () => {
                       Home
                     </Link>
                   </li>
-                  <li className='menu_item'>
+                  {/* <li className='menu_item'>
                     <Link onClick={handleToggle} to='/portfolio' className='my-3'>
                       {' '}
                       Portfolio
                     </Link>
-                  </li>
+                  </li> */}
                   <li className='menu_item'>
                     <Link onClick={handleToggle} to='/about' className='my-3'>
                       About
@@ -69,6 +69,9 @@ const Headermain = () => {
               </a>
               <a href={socialprofils.twitter} target='_blank' rel='noreferrer'>
                 Twitter
+              </a>
+              <a href={socialprofils.instagram} target='_blank' rel='noreferrer'>
+                Instagram
               </a>
             </div>
             <p className='copyright m-0'>copyright __ {logotext}</p>

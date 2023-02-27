@@ -232,3 +232,7 @@ section {
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
 }
+
+#description {
+    font-size: 14.5px;
+}
