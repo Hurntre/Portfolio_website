@@ -9,21 +9,21 @@ export const Socialicons = (params) => {
       <ul>
         {socialprofils.twitter && (
           <li>
-            <a href={socialprofils.twitter}>
+            <a href={socialprofils.twitter} target='_blank' rel='noreferrer'>
               <FaTwitter />
             </a>
           </li>
         )}
         {socialprofils.github && (
           <li>
-            <a href={socialprofils.github}>
+            <a href={socialprofils.github} target='_blank' rel='noreferrer'>
               <FaGithub />
             </a>
           </li>
         )}
         {socialprofils.linkedin && (
           <li>
-            <a href={socialprofils.linkedin}>
+            <a href={socialprofils.linkedin} target='_blank' rel='noreferrer'>
               <FaLinkedin />
             </a>
           </li>
