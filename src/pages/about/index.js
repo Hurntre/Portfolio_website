@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Container, Row, Col } from 'react-bootstrap';
-import { dataabout, meta, worktimeline, skills, services } from '../../content_option';
+import { dataabout, meta, worktimeline, skills, services, education } from '../../content_option';
 
 export const About = () => {
   return (
@@ -34,17 +34,40 @@ export const About = () => {
             </div>
           </Col>
         </Row>
-        <Row className=' sec_sp'>
+        <Row className='sec_sp'>
           <Col lg='5'>
-            <h3 className='color_sec py-4'>Work Experience</h3>
+            <h3 className='color_sec py-4'>Experience</h3>
           </Col>
           <Col lg='7'>
             <table className='table caption-top'>
               <tbody>
                 {worktimeline.map((data, i) => {
                   return (
-                    <tr key={i}>
+                    <><tr key={i}>
                       <th scope='row'>{data.jobTitle}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                    <tr key={`${i}description`}>
+                    <td colSpan={3}>{data.description}</td>
+                    </tr></>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+        <Row className='sec_sp'>
+          <Col lg='5'>
+            <h3 className='color_sec py-4'>Education</h3>
+          </Col>
+          <Col lg='7'>
+            <table className='table caption-top'>
+              <tbody>
+                {education.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope='row'>{data.degree}</th>
                       <td>{data.where}</td>
                       <td>{data.date}</td>
                     </tr>
@@ -54,7 +77,7 @@ export const About = () => {
             </table>
           </Col>
         </Row>
-        <Row className='sec_sp'>
+        {/* <Row className='sec_sp'>
           <Col lg='5'>
             <h3 className='color_sec py-4'>Skills</h3>
           </Col>
@@ -77,10 +100,10 @@ export const About = () => {
               );
             })}
           </Col>
-        </Row>
+        </Row> */}
         <Row className='sec_sp'>
           <Col lang='5'>
-            <h3 className='color_sec py-4'>services</h3>
+            <h3 className='color_sec py-4'>Services</h3>
           </Col>
           <Col lg='7'>
             {services.map((data, i) => {
