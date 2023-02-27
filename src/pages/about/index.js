@@ -27,6 +27,8 @@ export const About = () => {
             <div>
               <p>
                 {dataabout.aboutme.paragraph1} <br></br>
+              </p>
+              <p>
                 {dataabout.aboutme.paragraph2}
               </p>
             </div>
