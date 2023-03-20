@@ -23,7 +23,7 @@ const introdata = {
 };
 
 const dataabout = {
-  title: "About me",
+  title: "Background",
   aboutme: {
     paragraph1: `I am a Software Engineer with a computer science degree and about three years of professional experience building software systems that help deliver companies' product offerings.
                 The creative and technical process of designing and building market-fit products is the highlight of what I do.`,
@@ -127,77 +127,22 @@ const services = [
 
 const dataportfolio = [
   {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "https://res.cloudinary.com/dek1uoc1v/image/upload/v1679315605/Edens360_pg0ma1.png",
+    description:
+      "Edens360",
+    link: "https://edens360.com/",
   },
   {
-    img: "https://picsum.photos/400/800/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "https://res.cloudinary.com/dek1uoc1v/image/upload/v1679315600/Punterclash_zawly3.png",
+    description:
+      "Punterclash",
+    link: "https://punterclash-beta.netlify.app/",
   },
   {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/550/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "https://res.cloudinary.com/dek1uoc1v/image/upload/v1679315600/Umobile_jtfw6s.png",
+    description:
+      "Umobile",
+    link: "https://www.umobile.ng/driver",
   },
 ];
 
