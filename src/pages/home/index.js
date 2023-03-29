@@ -3,7 +3,6 @@ import './style.css';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Typewriter from 'typewriter-effect';
 import { introdata, meta } from '../../content_option';
-import { Link } from 'react-router-dom';
 
 export const Home = () => {
   return (

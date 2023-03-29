@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Container, Row, Col } from 'react-bootstrap';
-import { dataabout, meta, worktimeline, skills, services, education } from '../../content_option';
+import { dataabout, meta, worktimeline, services, education } from '../../content_option';
 
 export const About = () => {
   return (
