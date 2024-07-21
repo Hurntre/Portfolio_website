@@ -47,15 +47,15 @@ export const Home = () => {
                       <div className='ring three'></div>
                     </div>
                   </Link> */}
-                  <a href='https://dev.to/hurntre' target='_blank' rel='noreferrer' className='text_2'>
+                  <a href='/portfolio' rel='noreferrer' className='text_2'>
                     <div id='button_p' className='ac_btn btn '>
-                      Blog
+                      Portfolio
                       <div className='ring one'></div>
                       <div className='ring two'></div>
                       <div className='ring three'></div>
                     </div>
                   </a>
-                  <a href='Ariyo_Adefolaju_CV.pdf' download>
+                  <a href='Adefolaju_Ariyo_CV.pdf' download>
                     <div id='button_h' className='ac_btn btn'>
                       Download CV
                       <div className='ring one'></div>
