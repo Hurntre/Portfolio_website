@@ -1,58 +1,93 @@
 const logotext = "ADEFOLAJU";
 const meta = {
   title: "Adefolaju Ariyo",
-  description: `I am a Software Engineer with experience building software systems that
-                help deliver companies product offering and provide management
-                with real time insight from gathered data`,
+  description: `I'm a Software Engineer passionate about 
+                building innovative solutions that drive business growth.`,
 };
 
 const introdata = {
-  title: "Hello, there!",
+  title: "Hi, I'm Adefolaju Ariyo!",
   animated: {
-    first: "I’m Adefolaju Ariyo",
-    second: "I build awesome software products.",
-    third: "Secured and well tested software products.",
-    fourth: "I also build wordpress websites.",
+    first: "I build software that solves problems and grows businesses",
+    second: "I bridge the gap: Tech fluency meets business savvy (MBA grad!).",
+    third: "I design, develop, and implement - all to make your life easier.",
+    fourth: "Let's chat! I love a good challenge.",
   },
-  description: `I am a Software engineer with a computer science degree and about 3 years of professional experience building software systems that help deliver companies' product offerings.
-  The creative and technical process of designing and building market-fit products is the highlight of what I do. 
-                I have worked with technologies such as Javascript, Typescript, AWS, Heroku, GCP, Node.js, React, MongoDB, PostgreSQL, NestJS, and AdonisJS. 
-                I have also gained product experience from working with companies of various sizes and industries, including Edens360, Umobile, and Punterclash. `,
+  description: `A software engineer passionate about innovative solutions that drive business growth, 
+                I have spent the last 3 years building software systems empowering companies to deliver 
+                their products. The creative and technical dance of 
+                designing and crafting market-fit solutions is what truly excites me.
+                My experience spans a diverse range of technologies, including Javascript, 
+                Typescript, Python, GoLang, AWS, Heroku, GCP, Node.js, React, MongoDB, PostgreSQL, NestJS, and 
+                AdonisJS. This technical proficiency allows me to tackle complex challenges and 
+                translate ideas into tangible solutions.`,
   your_img_url:
     "https://res.cloudinary.com/dek1uoc1v/image/upload/v1674242412/Personal%20Images/2_hjfip6.jpg",
 };
 
-const dataabout = {
-  title: "Background",
-  aboutme: {
-    paragraph1: `I am a Software Engineer with a computer science degree and about three years of professional experience building software systems that help deliver companies' product offerings.
-                The creative and technical process of designing and building market-fit products is the highlight of what I do.`,
-    paragraph2: `I have worked with technologies such as Javascript, Typescript, AWS, Heroku, GCP, Node.js, React, MongoDB, PostgreSQL, NestJS, and AdonisJS.
-    I have also gained product experience from working with companies of various sizes and industries, including Edens360, Umobile, and Punterclash.`,
-  },
+const about_section = {
+    lead_paragraph: `A software engineer passionate about innovative solutions that drive business growth, 
+                I have spent the last 3 years building software systems that empowers companies to deliver 
+                their products. The creative and technical dance of 
+                designing and crafting market-fit solutions truly excites me.`,
+    technical_expertise: `My experience spans a diverse range of technologies, including Javascript, 
+                Typescript, Python, GoLang, AWS, Heroku, GCP, Node.js, React, MongoDB, PostgreSQL, NestJS, and 
+                AdonisJS. This technical proficiency allows me to tackle complex challenges and 
+                translate ideas into tangible solutions.`,
+    business_acumen: `Beyond the technical side, I'm also an MBA graduate with a keen interest in 
+                business strategy and management. This combined skillset allows me to bridge the 
+                gap between technology and business goals. My experience working with companies 
+                like Edens360, Umobile, and Punterclash across different industries has equipped me 
+                with valuable product knowledge and an understanding of diverse business needs.`,
+    problem_solving_and_impact: `I leverage my expertise in problem-solving and opportunity identification 
+                to design, develop, and implement secure and scalable software systems. These systems streamline 
+                processes, reduce costs, and drive revenue for organizations.`,
+    approach_to_development: `Thriving in collaborative environments, I take pride in a user-centric 
+                approach. The focus is on creating intuitive and efficient software that 
+                solves business problems and also fosters a positive user experience. 
+                Additionally, a process-oriented mindset helps identify areas for improvement and 
+                develop software solutions that streamline workflows and increase productivity.`,
+    why_choose_me: `A quick learner who readily adapts to new technologies, I deliver high-quality 
+                solutions on time and within budget with a results-oriented approach. 
+                Contributing to a team's success is a passion, and effective communication is 
+                considered key to a smooth development process.`,
+    connect_with_me: `Feel free to reach out and discuss how I can leverage my 
+                technical expertise and business understanding 
+                to help your company achieve its goals!`,
 };
+
 const worktimeline = [
   {
-    jobTitle: "Backend Software Engineer",
+    jobTitle: "Software Engineer",
     where: "Edens360",
-    date: "July 2022 - Present",
-    description: `Edens360's mission is to provide access to finance for people, businesses and governments.
-    At Edens360, I ensure users have access to the organisation's services by actively building and managing the software system's backend.`
+    date: "October 2022 - Present",
+    description: `Spearheaded the development of critical financial systems that significantly boosted the company's 
+                  revenue and growth. By leading the implementation of a scalable Mastercard payment gateway, 
+                  I facilitated a 75% improvement in wallet funding speed, a 450% increase in successful transactions, and a direct 
+                  5% revenue boost within the first quarter. Additionally, I built an MTN Mobile Money (MTN MoMo) inbound and outbound 
+                  transaction system that streamlined processing by over 80%, leading to a 300% surge in transaction volume within just 6 months. 
+                  This not only contributed to a 12% revenue increase but also opened doors for a wider range of product offerings, furthering the 
+                  company's growth goals.`
+  },
+  {
+    jobTitle: "Software Engineer",
+    where: "Albantsho",
+    date: "September 2023 - December 2023",
+    description: `Enhanced the user experience for screenwriters by building a robust PDF import and export feature 
+                  for the SaaS platform. This empowers writers to seamlessly manage their scripts throughout the creative 
+                  process, from initial brainstorming to potential sales. Additionally, I integrated a secure payment gateway 
+                  to facilitate user subscriptions, allowing the platform to generate recurring revenue and support ongoing 
+                  development for the benefit of its writer community.`
   },
   {
     jobTitle: "Software Engineer",
     where: "Umobile Technologies",
-    date: "August 2021 - June 2022",
-    description: `Umobile is on a mission to make Nigerians' mobility organized and more secured. With the aid of team members, I worked on improving
-    lead coversion of the organization by designing and implemented a new user registration process.`
-  },
-  {
-    jobTitle: "Software Engineer",
-    where: "Punterclash",
-    date: "June 2020 - February 2021",
-    description: `Punterclash believes in wealth redistribution by the use of social sports gambling…
-    As an intern on the engineering team, I was part of the team that developed a revenue tracking system
-    for the platform. I also was tasked with ensuring the marketing campaigns are well integrated into the user experience.`
+    date: "August 2021 - September 2022",
+    description: `Improved user acquisition and retention by 25% by implementing a 
+                  streamlined multi-step user registration flow built with React and Node.js. This user-centric 
+                  design enhanced the signup experience, leading to a higher conversion rate. Furthermore, 
+                  I fostered operational efficiency by creating a comprehensive admin dashboard that automated internal 
+                  processes by 30%. This saved valuable resources for the team and allowed a focus on more strategic initiatives.`
   },
 ];
 
@@ -101,9 +136,14 @@ const skills = [
 
 const education = [
   {
-    degree: "B.Sc Computer Science and Information Technology",
+    program: "Computer Science and Information Technology",
     where: "Bowen University",
     date: "2012 - 2016",
+  },
+  {
+    program: "Business Administration",
+    where: "University of Ibadan School of Business",
+    date: "2021 - 2023",
   },
 ];
 
@@ -169,7 +209,7 @@ const socialprofils = {
 };
 export {
   meta,
-  dataabout,
+  about_section,
   dataportfolio,
   worktimeline,
   skills,

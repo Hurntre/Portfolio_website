@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Container, Row, Col } from 'react-bootstrap';
-import { dataabout, meta, worktimeline, services, education } from '../../content_option';
+import { about_section, meta, worktimeline, education } from '../../content_option';
 
 export const About = () => {
   return (
@@ -13,27 +13,43 @@ export const About = () => {
           <title> About | {meta.title}</title>
           <meta name='description' content={meta.description} />
         </Helmet>
-        <Row className='mb-5 mt-3'>
+        <Row className='mb-3 mt-3'>
           <Col lg='8'>
-            <h1 className='display-4 mb-4'>About me</h1>
+            <h1 className='display-4 mb-4'>About</h1>
             <hr className='t_border my-4 ml-0 text-left' />
           </Col>
         </Row>
+
+        {/* About Write up */}
         <Row className='sec_sp'>
-          <Col lg='5'>
-            <h3 className='color_sec py-4'>{dataabout.title}</h3>
-          </Col>
-          <Col lg='7' className='d-flex align-items-center'>
+          <Col lg='12' className='d-flex align-items-center'>
             <div>
               <p>
-                {dataabout.aboutme.paragraph1} <br></br>
+                {about_section.lead_paragraph} <br></br>
               </p>
               <p>
-                {dataabout.aboutme.paragraph2}
+                {about_section.technical_expertise}
+              </p>
+              <p>
+                {about_section.business_acumen}
+              </p>
+              <p>
+                {about_section.problem_solving_and_impact}
+              </p>
+              <p>
+                {about_section.approach_to_development}
+              </p>
+              <p>
+                {about_section.why_choose_me}
+              </p>
+              <p>
+                {about_section.connect_with_me}
               </p>
             </div>
           </Col>
         </Row>
+
+        {/* Experience */}
         <Row className='sec_sp'>
           <Col lg='5'>
             <h3 className='color_sec py-4'>Experience</h3>
@@ -44,12 +60,12 @@ export const About = () => {
                 {worktimeline.map((data, i) => {
                   return (
                     <><tr key={i}>
-                      <th scope='row'>{data.jobTitle}</th>
+                      <td>{data.jobTitle}</td>
                       <td>{data.where}</td>
                       <td>{data.date}</td>
                     </tr>
                     <tr key={`${i}description`}>
-                    <td colSpan={3}>{data.description}</td>
+                    <td colSpan={3} className='py-5'>{data.description}</td>
                     </tr></>
                   );
                 })}
@@ -67,7 +83,7 @@ export const About = () => {
                 {education.map((data, i) => {
                   return (
                     <tr key={i}>
-                      <th scope='row'>{data.degree}</th>
+                      <td>{data.program}</td>
                       <td>{data.where}</td>
                       <td>{data.date}</td>
                     </tr>
@@ -77,6 +93,8 @@ export const About = () => {
             </table>
           </Col>
         </Row>
+
+        {/* Skills */}
         {/* <Row className='sec_sp'>
           <Col lg='5'>
             <h3 className='color_sec py-4'>Skills</h3>
@@ -101,7 +119,10 @@ export const About = () => {
             })}
           </Col>
         </Row> */}
-        <Row className='sec_sp'>
+
+        {/* Services  */}
+
+        {/* <Row className='sec_sp'>
           <Col lang='5'>
             <h3 className='color_sec py-4'>Services</h3>
           </Col>
@@ -115,7 +136,7 @@ export const About = () => {
               );
             })}
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </HelmetProvider>
   );
